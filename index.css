@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif ;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main{
+    padding: 20px 0px;
+    box-shadow: 0px 0px 34px -5px;
+}
+.header{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.search{
+    width: 30%;
+    display: flex;
+    background-color: #f5f5f6;
+    padding: 12px;
+    border-radius: 5px;
+}
+.search i{
+    color: #717288;
+}
+.search div{
+    margin: 0px 10px;
+}
+.search input{
+    border: none;
+    background-color: transparent;
+    width: 250px;
+}
+.search input:focus{
+    outline: none;
+}
+.account{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    font-size: 13;
+    font-weight: bold;
+}
+.benner{
+    width: 1300px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin: 30px;
+}
+
+.code{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.save{
+    font-size: 20px;
+}
+.imgbar1{
+    width: 1200px;
+    margin: 10px;
+    display: flex;
+    
+}
+.cati{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+.cati2{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+.cati3{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+.cat4{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    background-color: #FAFBFC;
+    margin-top: 20px;
+    display: flex;
+}
+.sen1{
+    width: 200px;
+    background-color: #FAFBFC;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sen1 ul{
+    list-style: none;
+    margin: 10px;
+
+}
+.con1 {
+    font-size: 15px;
+    font-weight: bold;margin: 10px;
+}
+.sen2{
+    width: 200px;
+    background-color:  #FAFBFC;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.con2{
+    font-size: 15px;
+    font-weight: bold;margin: 10px;
+}
+.sen2 ul{
+    list-style: none;
+    margin: 10px;
+}
+.sen3{
+    width: 400px;
+    background-color: #FAFBFC;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.con3{
+    font-size: 13px;
+    font-weight: bold;margin: 10px;
+}
+.play{
+    margin: 10px;
+}
+.con4{
+    font-size: 15px;
+    font-weight: bold;margin: 10px;
+}
+.icon{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+.sen4{
+    width: 450px;
+    background-color: #FAFBFC;
+    margin-left: 20px;
+    margin-top: 20px; 
+    display: flex;
+   
+}
+.icon1{
+    margin: 10px;
+    
+}
+.or{
+    margin: 10px;
+}
+
+.pop{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.pra{
+    margin: 20px;
+   
+}
+.bottom2{
+    background-color: #FAFBFC;
+}
+.mu{
+    display: flex;
+    justify-content: space-between;
+}
+.pop1{
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mu2{
+    margin: 20px;
+    display: flex;
+}
+.mu3{
+    margin: 20px;
+}
+.mukul{
+    border-bottom: 1px solid  #CACBD0;
+}
+.T-Shirts-main{
+    width: 1300px;
+    margin: 20px;
+    font-size: 12px;
+}
+.men-thirts{
+    width: 1300px;
+    margin: 20px;
+    font-size: 15px;
+}
+.men-thirts-1{
+    margin: 20px;
+    display: flex;
+}
+.ram ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 15px;
+    margin-left: 200px;
+}
+.text{
+    margin-left: 500px;
+}
+.ram ul li:hover{
+    background-color: #CACBD0;
+    border-radius: 20px;
+}
+.all-all{
+    width: 250;
+    float: left;
+}
+.CATEGORIES{
+    width: 250px;
+    border-right: 1px solid #CACBD0;
+    border-bottom: 1px solid #CACBD0;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.ms{
+    margin-top: 10px;
+}
+.ms ul li {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    font-size: 12px;
+}
+.no{
+    color:#CACBD0 ;
+    font-size: 10px;
+}
+.BRAND{
+    width: 250px;
+    border-right: 1px solid #CACBD0;
+    border-bottom: 1px solid #CACBD0;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.mm ul li{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    font-size: 12px;
+}
+.abc{
+    color: red;
+}
+.BRAND i{
+    color: #717288;
+    margin-left: 140px;
+    font-size: 20;
+}
+.PRICE{
+    width: 250px;
+    border-right: 1px solid #CACBD0;
+    border-bottom: 1px solid #CACBD0;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.mk ul li{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    font-size: 12px;
+}
+.color{
+    width: 250px;
+    border-right: 1px solid #CACBD0;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid #CACBD0;
+}
+.color i{
+    color: #717288;
+    margin-left: 140px;
+    font-size: 20;
+}
+.muk ul li{
+    list-style: none;
+}
+
+
+
+
+.DISCOUNT{
+    width: 250px;
+    border-right: 1px solid #CACBD0;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid #CACBD0;
+}
+.DISCOUNT ul li{
+    list-style: none;
+}
+.side{
+    width: 1099px;
+    float: left;
+}
+.DISCOUNT ul li{
+    font-size: 15px;
+}
